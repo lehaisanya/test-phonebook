@@ -1,0 +1,15 @@
+@use 'styles/breakpoints.scss' as *;
+@use 'styles/colors.scss' as *;
+
+.container {
+    padding: 10px;
+
+    max-width: 1000px;
+    margin: 0px auto;
+
+    a {
+        text-decoration: none;
+        color: $header-link-color;
+        margin-right: 10px;
+    }
+}

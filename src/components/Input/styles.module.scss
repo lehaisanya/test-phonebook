@@ -1,0 +1,12 @@
+@use 'styles/colors.scss' as *;
+
+.input {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid $input-border-color;
+
+    &:focus {
+        border: 1px solid $input-focus-border-color;
+        outline: none;
+    }
+}

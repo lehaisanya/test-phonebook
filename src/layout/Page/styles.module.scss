@@ -1,0 +1,14 @@
+@use 'styles/colors.scss' as *;
+@use 'styles/breakpoints.scss' as *;
+
+.page {
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0px auto;
+    background-color: $page-color;
+
+    @include for-tablet-portrait-up {
+        border-radius: 15px;
+        padding: 20px;
+    }
+}

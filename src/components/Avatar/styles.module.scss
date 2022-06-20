@@ -1,0 +1,6 @@
+@use 'styles/colors.scss' as *;
+
+.avatar {
+    border-radius: 50%;
+    background-color: $avatar-background;
+}

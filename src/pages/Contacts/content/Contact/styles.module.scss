@@ -1,0 +1,65 @@
+@use 'styles/colors.scss' as *;
+
+.container {
+    display: flex;
+    border-radius: 20px;
+
+    &:hover {
+        background-color: $contact-button-hover;
+
+        .editIconContainer {
+            .editIcon {
+                visibility: visible;
+            }
+        }
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .avatar {
+        margin-right: 15px;
+        width: 45px;
+        height: 45px;
+        overflow: hidden;
+
+        img {
+            width: 45px;
+            height: 45px;
+        }
+
+        .icon {
+            color: $avatar-icon-color;
+            width: 25px;
+            height: 25px;
+            margin: 10px;
+        }
+    }
+
+    .contactData {
+        font-weight: 500;
+    }
+
+    .phoneNumber {
+        color: $contact-phone-color;
+    }
+
+    .spacer {
+        flex: 1;
+    }
+
+    .editIconContainer {
+        width: 45px;
+        height: 45px;
+
+        cursor: pointer;
+
+        .editIcon {
+            visibility: hidden;
+            width: 25px;
+            height: 25px;
+            margin: 10px;
+        }
+    }
+}

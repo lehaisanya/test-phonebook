@@ -1,0 +1,32 @@
+@use 'styles/colors.scss' as *;
+
+.container {
+    .button {
+        display: flex;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $contact-button-hover;
+        }
+
+        .iconContainer {
+            margin-right: 15px;
+            color: $avatar-icon-color;
+            width: 45px;
+            height: 45px;
+
+            .icon {
+                width: 25px;
+                height: 25px;
+                margin: 10px;
+            }
+        }
+
+        .buttonText {
+            margin: auto 0px;
+            font-weight: 500;
+        }
+    }
+}

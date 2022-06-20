@@ -1,0 +1,22 @@
+@use 'styles/breakpoints.scss' as *;
+@use 'styles/colors.scss' as *;
+
+.layout {
+    min-height: 100vh;
+
+    @include for-tablet-portrait-up {
+        background-color: $page-background;
+    }
+}
+
+.header {
+    background-color: $header-color;
+}
+
+.content {
+    padding: 0px;
+
+    @include for-tablet-portrait-up {
+        padding: 10px;
+    }
+}

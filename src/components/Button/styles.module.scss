@@ -1,0 +1,17 @@
+@use 'styles/colors.scss' as *;
+
+.button {
+    background-color: $button-background;
+    border: 2px solid $button-border-color;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $button-hover-color;
+    }
+
+    &.active {
+        background-color: $button-active-color;
+    }
+}
