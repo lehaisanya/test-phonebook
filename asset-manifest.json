@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/test-phonebook/static/css/main.4241b7cf.css",
-    "main.js": "/test-phonebook/static/js/main.05298b5c.js",
+    "main.css": "/test-phonebook/static/css/main.6171690d.css",
+    "main.js": "/test-phonebook/static/js/main.8f19853f.js",
     "index.html": "/test-phonebook/index.html",
-    "main.4241b7cf.css.map": "/test-phonebook/static/css/main.4241b7cf.css.map",
-    "main.05298b5c.js.map": "/test-phonebook/static/js/main.05298b5c.js.map"
+    "static/media/Edit.svg": "/test-phonebook/static/media/Edit.8b6dc270efe16d04b0ee0d13a14d6e27.svg",
+    "static/media/User.svg": "/test-phonebook/static/media/User.4ff321104b5900eccff5db36c9a1d523.svg",
+    "static/media/Plus.svg": "/test-phonebook/static/media/Plus.71a096f8860a5ae239d46dbbc484a125.svg",
+    "main.6171690d.css.map": "/test-phonebook/static/css/main.6171690d.css.map",
+    "main.8f19853f.js.map": "/test-phonebook/static/js/main.8f19853f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4241b7cf.css",
-    "static/js/main.05298b5c.js"
+    "static/css/main.6171690d.css",
+    "static/js/main.8f19853f.js"
   ]
 }
