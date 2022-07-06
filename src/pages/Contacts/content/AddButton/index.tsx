@@ -4,7 +4,7 @@ import { Collapsed } from 'components/Collapsed'
 import { Avatar } from 'components/Avatar'
 import { AddingForm } from './AddingForm'
 import { contactsStore } from 'stores'
-import { PlusIcon } from 'icons/Plus'
+import { ReactComponent as PlusIcon } from 'icons/Plus.svg'
 
 import styles from './styles.module.scss'
 

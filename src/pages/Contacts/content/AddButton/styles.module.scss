@@ -13,7 +13,6 @@
 
         .iconContainer {
             margin-right: 15px;
-            color: $avatar-icon-color;
             width: 45px;
             height: 45px;
 
@@ -21,6 +20,7 @@
                 width: 25px;
                 height: 25px;
                 margin: 10px;
+                fill: $avatar-icon-color;
             }
         }
 

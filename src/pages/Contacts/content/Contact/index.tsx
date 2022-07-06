@@ -4,9 +4,9 @@ import { Collapsed } from 'components/Collapsed'
 import { Avatar } from 'components/Avatar'
 import { EditForm } from './EditForm'
 import { contactsStore } from 'stores'
-import { UserIcon } from 'icons/User'
-import { EditIcon } from 'icons/Edit'
 import { ContactData } from 'types/core'
+import { ReactComponent as EditIcon } from 'icons/Edit.svg'
+import { ReactComponent as UserIcon } from 'icons/User.svg'
 
 import styles from './styles.module.scss'
 
